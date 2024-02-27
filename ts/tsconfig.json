@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "outDir": "dist", // 컴파일 파일들 한번에 정리하는 폴더명
+    "strict": true, // true:타입 검사를 엄격하게
+    // "strictNullChecks": false,
+    "moduleDetection": "force", // 자동으로 .js에서 export되도록
+    "target": "ESNext" // 최신 버전
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"] // src 안의 모든 파일들을 컴파일
+
+}
